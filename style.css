@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+   
+}
+@media screen and (max-width: 786px){
+    header{
+        border: 1px solid red;
+        height: 20rem;
+        width: 100%;
+        background-image: url("/images/desktop/image-hero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 0 0 0;
+    }
+    .logo-contain{
+        max-width: 30%;
+        height: 3rem;
+    }
+    
+    .nav-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* padding-top: 2rem; */
+    }
+    
+    .Hamburger-contain{
+        display: block;
+        height: 3rem;
+    }
+    .Hamburger-contain img{
+        width: 1.5rem;
+        height: 1rem;
+    }
+        
+    .nav-list-contain{
+        display: none;
+    }
+        
+    .immersive{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        border: 2px solid #fff;
+        width: 40%;
+        padding: 2rem 0;
+    }
+    .immersive h2{
+        color: #fff;
+        font-size: 22px;
+        font-family: 'Josefin Sans', sans-serif;
+
+    }
+    .deliver-breaker{
+        display: block;
+    }
+    .row2{
+        
+       
+        /* border: 2px solid blue; */
+        height: 40rem;
+        width: 100%;
+        /* margin: 50px 20px 30px 30px; */
+    }
+    /* .interactive-container{
+        display: flex;
+        flex-direction: column;
+        } */
+   
+    .manblue{
+        /* border: 2px solid black; */
+        background-image: url(./images/desktop/image-interactive.jpg);
+        background-repeat: no-repeat;
+        background-size: 25rem;
+        background-position: center;
+        height: 25rem;
+        width: 100%;
+        
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        /* align-items: center; */
+
+    }
+    .text p{
+        font-size: xx-large;
+        display: flex;
+        position: relative; bottom: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-bottom: 30px
+        /* justify-content: space-between; */
+    }
+    
+    .text pre{
+        display: flex;
+        position:static;
+        padding-right: 98px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .row3{
+        /* border: 1px solid black; */
+        height: 40rem;
+        margin-top: 10rem;
+        /* background-image: url(./images/desktop/image-deep-earth.jpg); */
+    }
+    .row3 p{
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+        font-weight: lighter;
+        margin-bottom: 50px;
+    }
+    .img1{
+        /* border: 2px solid pink; */
+        background-image: url(./images/mobile/image-deep-earth.jpg);
+        height: 15rem;
+        /* width: 100%; */
+        margin: 0 20px 0 20px;
+        background-repeat: no-repeat;
+
+    }
+    .img1 p{
+        color: white;
+        position:relative; top: 10rem; right: 10rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .img2{
+        display: flex;
+        
+        background-image: url(./images/mobile/image-night-arcade.jpg);
+        height: 15rem;
+        margin: 30px 20px 0 20px;
+        background-size:cover;
+        /* background-position: 10%; */
+        /* background-position: right 50%; */
+        padding-bottom: 5rem;
+        background-repeat: no-repeat;
+
+    }
+
+    .img2 p{
+        /* margin-left: 20px; */
+        color: #fff;
+        position: relative; top: 10rem; right: 10rem;
+        /* font-weight:lighter; */
+        font-family: 'Josefin Sans', sans-serif;
+        /* padding-bottom: 3rem; */
+    }
+
+    .img3{
+        background-image: url(./images/mobile/image-soccer-team.jpg);
+        height: 15rem;
+        margin: 30px 20px 0 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img3 p{
+        margin-left: 7rem;
+        color: #fff;
+        position: relative; top: 10rem; right: 13rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .img4{
+        background-image: url(./images/mobile/image-grid.jpg);
+        height: 15rem;
+        margin: 23px 20px 0 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .img4 p{
+        margin-left: 4rem;
+        color: white;
+        position: relative; top: 8rem; right: 13rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .img5{
+        /* border: 1px solid red; */
+        background-image: url(./images/mobile/image-from-above.jpg);
+        height: 15rem;
+        margin: 23px 20px 20px 20px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+    .img5 p{
+        margin-left: 7rem;
+        color: #fff;
+        position: relative; top: 10rem; right: 13rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .img6{
+        background-image: url(./images/mobile/image-pocket-borealis.jpg);
+        height: 15rem;
+        margin: 23px 20px 20px 20px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+    .img6 p{
+        margin-left: 7rem;
+        color: #fff;
+        position: relative; top: 10rem; right: 13rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .img7{
+        background-image: url(./images/mobile/image-curiosity.jpg);
+        height: 15rem;
+        margin: 23px 20px 20px 20px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .img7 p{
+        margin-left: 7rem;
+        color: #fff;
+        position: relative; top: 10rem; right: 13rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .loop{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img8{
+        background-image: url(./images/mobile/image-fisheye.jpg);
+        height: 15rem;
+        margin: 23px 20px 20px 20px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    .img8 p{
+        margin-left: 7rem;
+        color: #fff;
+        position: relative; top: 10rem; right: 13rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .see-all h3{
+        display: flex;
+        justify-content:center;
+        border: 2px solid black;
+        height: 3.5rem;
+        width: 30%;
+        margin: 100rem 0 5rem 13rem;
+        color: black;
+        align-items: center;
+        font-family: 'Josefin Sans', sans-serif;
+        /* padding-top: 3rem; */
+    }
+
+    .row4{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: 25rem;
+        width: 100%;
+        /* margin-bottom: 20px; */
+        
+        
+    }
+    .row4-logo{
+        padding: 3rem 0 10px 1rem;
+        /* height: 50rem; */
+        
+    }
+    .row4-nav ul{
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* margin: 20px; */
+        color: #fff;
+        list-style-type: none;
+        /* justify-content: space-between; */
+    }  
+    .row4-nav ul li{
+        /* justify-content: space-between; */
+        padding: 10px;
+        font-size: small;
+    }
+    .icons{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    padding-left: 25px;
+    /* column-gap: 5px; */
+    height: 0.1px;
+        
+    }
+   .fb{
+    justify-content: space-around;
+    padding: 0 10px 0;
+    /* background-size: 10px; */
+   
+   }
+   .twitter{
+    justify-content: space-around;
+    padding: 0 10px 0;
+   }
+   .pinterest{
+    justify-content: space-around;
+    padding: 0 10px 0;
+   }
+   .instagram{
+    justify-content: space-around;
+    padding: 0 10px 0;
+   }
+   .copyright p{
+    color: #fff;
+    font-size: smaller;
+    padding-top: 60px;
+    justify-content: center;
+    padding-left: 10px;
+   }
+   .see-all-desk{
+    display: none;
+   }
+   .creation-container{
+    display: flex;
+    justify-content: center;
+   }
+
+   .desk-footer{
+    display: none;
+   }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 786px){
+    .immersive{
+        display: flex;
+        justify-content: center;
+        margin-top: 12rem;
+        border: 2px solid #fff;
+        width: 40%;
+        padding: 2rem 0;
+    }
+    .deliver-breaker{
+        display: none;
+    }
+    .immersive h2{
+        color: #fff;
+        font-size: 25px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .Hamburger-contain{
+        display: none;
+    }
+    .nav-list-contain{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-list-contain ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-list-contain ul li{
+        margin: 0 1rem 0 1rem;
+        color: #fff;
+        font-family: 'Alata', sans-serif;
+    }
+    header{
+        height: 35rem;
+        width: 100%;
+        background-image: url("/images/desktop/image-hero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 0 0 0;
+    }
+    .loop{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+    .loop div{
+        margin: 0 1.5rem 0  0;
+    }
+    .row2{
+        
+       
+        /* border: 2px solid blue;
+        height: 40rem; */
+        width: 100%;
+        /* margin: 50px 20px 30px 30px; */
+    }
+    .interactive-container{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+        .manblue{
+        /* border: 2px solid black; */
+        background-image: url(./images/desktop/image-interactive.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 25rem;
+        width: 70%;
+        margin: 2rem 0 0 2rem;
+    }
+    
+    .text{
+      
+        justify-content: center;
+        padding: 6rem 2rem 0 2rem;
+        text-align: center;
+        background: white;
+        height: 16rem;
+        width: 60%;
+        position: relative;
+        right: 10%;
+        top:12rem;
+
+    }
+
+.row3-top{
+    display: flex;
+    align-content: flex-start;
+    width:30%;
+    margin: 0 ;
+    padding-top: .7rem;
+}
+.row3-top p{
+    margin: 0;
+}
+
+.img1{
+    background: url('./images/desktop/image-deep-earth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    padding: 2rem ;
+    /* height: 30rem; */
+}
+.img1 p{
+    margin-left: 2rem;
+    color: #fff;
+    padding-top: 25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    
+}
+.img2{
+    background: url('./images/desktop/image-night-arcade.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    padding: 2rem ;
+}
+.img2 p{
+    margin-left: 2rem;
+    color: #fff;
+    padding-top: 25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+.img3{
+    background: url('./images/desktop/image-soccer-team.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    padding: 2rem ;
+}
+.img3 p{
+    margin-left: 2rem;
+    color: #fff;
+    padding-top: 25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    /* font-weight: bolder; */
+    
+}
+.img4{
+    background: url('./images/desktop/image-grid.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    padding: 2rem ;
+}
+.img4 p{
+    margin-left: 2rem;
+    color: #fff;
+    padding-top: 25rem ;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+.img5{
+    background: url('./images/desktop/image-from-above.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    padding: 2rem ;
+}
+.img5 p{
+    margin-left: 2rem;
+    color: #fff;
+    padding-top: 25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+.img6{
+    background: url('./images/desktop/image-pocket-borealis.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    padding: 2rem ;
+}
+.img6 p{
+    margin-left: 2rem;
+    color: #fff;
+    padding-top: 25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+.img7{
+    background: url('./images/desktop/image-curiosity.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    padding: 2rem ;
+}
+.img7 p{
+    margin-left: 2rem;
+    color: #fff;
+    padding-top: 25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+.img8{
+    background: url('./images/desktop/image-fisheye.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    padding: 2rem ;
+}
+.img8 p{
+    margin-left: 2rem;
+    color: #fff;
+    padding-top: 25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+.row3{
+    width: 100%;
+    padding:2rem;
+}
+.see-all{
+    display: none;
+   
+}
+
+
+.creation-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.see-all-desk {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    margin: 0 ;
+    padding-right: 29px;
+
+   
+}
+.see-all-desk p{
+    margin: 0 ;
+    align-items: flex-end;
+    color: #fff;
+    background-color: black;
+    padding: .7rem;
+    border-radius: .3rem;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.row4{
+    display: none;
+}
+
+.footer{
+    display: flex;
+    border: 1px solid red;
+    /* justify-content: center; */
+}
+
+
+.desk-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* justify-content: center; */
+    background-color: black;
+    height: 9rem;
+    padding-top: 2rem;
+    gap: 40%;
+    /* margin-top: 40px; */
+}
+
+.foot-logo-nav{
+    margin: 0;
+    /* display: flex; */
+    /* flex-direction: row; */
+
+    
+}
+.foot-logo{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    justify-content: flex-start;
+}
+.foot-nav{
+    width: 100%;
+}
+.foot-nav a{
+    /* width:100%; */
+    /* flex-direction: row; */
+    text-decoration: none;
+    font-size: small;
+    color: #fff;
+    margin-left: 2rem;
+
+}
+.foot-icons{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /* justify-content: flex-end; */
+
+    /* justify-content: right; */
+    /* align-items: left; */
+    /* margin: 30px 0 0 30rem; */
+    /* padding-left: 10rem; */
+}
+.f-icons{
+    display: flex;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    
+}
+.f-icons img{
+    margin-right: 1rem;
+}
+.foot-copyrights{
+    color: #fff;
+}
+
+
+
+
+
+}
+/* @media screen and (max-width: 1159px ){
+    .loop div p{
+        margin-top: 7rem;
+    }
+} */
